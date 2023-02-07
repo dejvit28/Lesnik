@@ -1,0 +1,181 @@
+*{  /*Стил за INDEX*/
+    margin: 0;
+    padding: 0;
+    
+}
+.pre-header{                                      /*главно мени*/
+    background-color: black;
+    color: darkgray;
+    padding-top: 0px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.secound-menu{
+    list-style: none ;
+    display: inline-block;
+}                                             
+ 
+.secound-menu li{
+    display: inline-block;
+    margin-top: 17px;
+
+}                         
+
+.secound-menu li a{
+    color: #575757;
+    text-transform: uppercase;
+    margin: auto;
+}            
+
+.secound-menu a:hover{
+    background-color: transparent;
+    text-decoration: none;
+}
+
+body{                                           /* slika na pozadinata */
+    background-image: url('img/bgpg.png');
+    background-size: cover;
+    font-family: sans-serif; 
+}
+
+.page{
+    max-width: 1000px;
+    margin: auto;
+    border: 2px solid brown;
+    background-image: url('img/sl3.png');     
+    border-radius: 10px;
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h4{                                         /* opis na lesnak */
+    text-align: center;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+.secound img:hover {                        /*трите слики*/
+    margin-top: -32px;
+    background-origin: padding-box;
+    box-sizing: border-box ;
+    border-radius: 30px;
+}
+.containerz {                               /*na krajo slika i kontakt informacii (number, instagram, facebook)*/
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+   
+.containerx {                               /*na krajo slika i kontakt informacii (number, instagram, facebook)*/
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+}
+
+.info{
+    background-color: black;
+    color: white;
+}
+
+.info img:hover {                        
+    margin-top: 0px;
+    box-sizing: border-box ;
+    border-radius: 0px;
+}
+
+.containery {
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+h6{
+background-color: black;
+color: white;
+font-family: sans-serif;
+}
+.containercopy{                            
+    max-width: 200px;
+    font-style: italic;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+.containercopyime{                            
+    max-width: 120px;
+    font-style: italic;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+.sodrzina{
+    text-align: center;
+    color: #101211;
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.2s ease;
+}
+
+.active {
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 2}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
